@@ -1,0 +1,290 @@
+/* ========== Base Styles ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.6;
+  background: #fff;
+  color: #2F3830;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ============ Header ========== */
+.spencer-hero {
+  text-align: left;
+  background-color:#fff;
+  padding: 20px 120px;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.spencer-head-content {
+  margin: 70px auto 0px;
+  border-radius: 20px;
+  max-width: 65%;
+  color:#fff;
+  position: relative;
+  background: #2F3830;
+}
+
+.spencer-text{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 14px;
+    text-align: left;
+}
+
+.spencer-text h1{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.spencer-text p{
+  max-width: 35%;
+  font-weight:300;
+  margin-left: 8px;
+  padding-bottom: 20px;
+  font-size: 14px;
+
+}
+
+.spencer-header-img{
+    position: absolute;
+    top: -110px;
+    right: -100px;
+}
+
+.spencer-header-img img {
+  height: 600px;
+  width: auto;
+}
+
+/*===prob===*/
+.spencer-prob{
+    background: #fff;
+    text-align: center;
+    padding: 0px 160px 20px;
+}
+
+.spencer-prob h1{
+    color: #2F3830;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.spencer-prob p{
+    color: #A7B5AC;
+    margin: 20px;
+}
+
+/*=== Our Solution ===*/
+.spencer-product{
+    background: #fff;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 300px 240px;
+}
+
+.spencer-product-img{
+    position: absolute;
+    right: 200px;
+}
+
+.spencer-product-img img{
+    max-height: 460px;
+    display: block;
+}
+
+.spencer-product-text{
+    max-width: 40%;
+    position: absolute;
+    left: 200px;
+}
+
+.spencer-product-text h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.spencer-product-text p{
+    color: #A7B5AC;
+    margin: 30px 10px;
+}
+
+/*===user research===*/
+.spencer-research{
+    background: #fff;
+    padding: 20px 200px;
+}
+
+.spencer-research-content{
+    background:#A7B5AC;
+    border-radius: 12px;
+    padding: 20px 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.spencer-research-content h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.spencer-research-content p{
+    margin: 20px;
+}
+
+/*===features===*/
+.spencer-features{
+    background: #fff;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.spencer-features h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.spencer-features h2{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0px 100px;
+}
+
+.spencer-features-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#A7B5AC;
+    margin: -80px 0px 40px;
+}
+
+.spencer-features-img-1{
+    flex: 1;
+    max-width: 400px;
+}
+
+.spencer-features-text{
+    max-width: 40%;
+    flex: 2;
+    text-align: left;
+}
+
+.spencer-features-text p{
+    margin: 40px;
+}
+
+.spencer-features-img-2{
+    max-width: 300px;
+}
+
+/*===brand evolution===*/
+.brand-evolution{
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.brand-evolution h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.wireframes-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    align-items: center;
+}
+
+.wireframes-content p{
+    flex: 1;
+    background:#2F3830;
+    border-radius: 12px;
+    padding: 40px;
+    color:#A7B5AC;
+    max-width: 40%;
+    margin-right: 100px;
+}
+
+.first-wireframes{
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.first-draft-wireframes-img{
+    display: flex;
+    flex-direction: horizontal;
+    gap: 20px;
+    margin-right: -100px;
+}
+
+.first-draft-wireframes-img img{
+    max-width: 25%;
+}
+
+.final-wireframes{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    margin: 40px;
+}
+
+.final-wireframes img{
+    max-height: 500px;
+}
+
+/*==prototypes===*/
+.prototypes{
+    background: #fff;
+    text-align: center;
+}
+
+.prototypes h1{
+    font-weight: 700;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.demo-vids{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.spencer-vid{
+    border: transparent;
+    max-width: 20%;
+}
+
+/*===reflection===*/
+.reflection{
+    background: #fff;
+    text-align: center;
+    padding: 40px 140px;
+}
+
+.reflection h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.reflection p{
+    color:#A7B5AC;
+    padding: 15px;
+}

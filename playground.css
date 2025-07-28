@@ -1,0 +1,116 @@
+/* ========== Base Styles ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.6;
+  background: #fff;
+  color: #2a2d38;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ===header===*/
+.playground-header{
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.playground-header h1{
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.playground-header p{
+  color:#8b90a3;
+  margin: 20px;
+  font-weight: 300;
+}
+
+.playground-content{
+    background: #fff;
+    text-align: center;
+}
+
+/*=== URMO ===*/
+.urmo-insta {
+  padding: 40px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.insta-grid{
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+
+.insta-grid img{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
+
+.urmo-insta-mockup{
+    flex: 1;
+}
+
+.urmo-insta-mockup img{
+    max-width: 150%;
+}
+
+.urmo-merch{
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.merch-stack{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 60px;
+    padding: 40px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.merch-images{
+    position: relative;
+    width: 30%;
+    height: 300px;
+}
+
+.merch{
+    display: block;
+    position: absolute;
+    max-height: 320px;
+    left: 0;
+    top: 0;
+    transition: transform 0.6s ease, z-index 0.3s;
+}
+
+.merch:nth-child(2) { left: 120px; }
+.merch:nth-child(3) { left: 240px; }
+.merch:nth-child(4) { left: 360px; }
+.merch:nth-child(5) { left: 480px; }
+
+.design-graphic{
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-graphic img{
+    max-width: 80%;
+}

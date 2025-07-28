@@ -1,0 +1,318 @@
+/* ========== Base Styles ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.6;
+  background: #fff;
+  color: #2a2d38;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ============ Header ========== */
+.orbital-hero {
+  text-align: left;
+  background-color:#fff;
+  padding: 20px 120px;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.orb-head-content {
+  margin: 40px auto;
+  border-radius: 20px;
+  max-width: 65%;
+  color:#fff;
+  position: relative;
+  background: #2a2d38;
+}
+
+.orb-head-text{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 14px;
+    text-align: left;
+}
+
+.orb-head-text h1{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.orb-head-text p{
+  max-width: 35%;
+  font-weight:300;
+  margin-left: 8px;
+  padding-bottom: 20px;
+  font-size: 14px;
+
+}
+
+.orb-head-img{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.orb-head-img img {
+  height: 400px;
+  width: auto;
+}
+
+.orb-head-subtext{
+    color: #8b90a3;
+    text-align: right;
+    max-width: 25%;
+    font-size: 14px;
+    font-weight: 300;
+    right: 710px;
+    bottom: 60px;
+    position: absolute;
+    line-height: 20px;
+}
+
+/* ==== Problem Statement ===*/
+.orb-prob{
+    background: #fff;
+    padding: 40px 200px;
+}
+
+.orb-prob h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.orb-prob p{
+    color: #8b90a3;
+    margin: 10px;
+}
+
+/*=== Our Solution ===*/
+.orb-solution{
+    background: #fff;
+    padding: 30px 200px;
+    text-align: right;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orb-solution-img{
+    position: absolute;
+    left: 200px;
+}
+
+.orb-solution-img img{
+    max-height: 460px;
+    display: block;
+}
+
+.orb-solution-text{
+    max-width: 60%;
+    margin-left: 500px;
+    margin-right: 40px;
+}
+
+.orb-solution-text h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.orb-solution-text p{
+    color: #8b90a3;
+    margin: 10px;
+}
+
+/*===branding===*/
+.brand-identity{
+    background: #fff;
+    display: block;
+    text-align: center;
+    padding: 60px;
+}
+
+.brand-identity h1{
+    font-weight:700;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.brand-identity img{
+    max-width: 75%;
+}
+
+/*===research findings===*/
+.research-findings{
+    background:#fff;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 200px;
+}
+
+.research-content{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px; 
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.research-findings h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.competitive-analysis{
+    align-items: center;
+    flex: 1.2;
+    color: #8b90a3;
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.comp-entry{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+}
+
+.notion{
+    max-width: 100px;
+}
+
+.todoist{
+    max-width: 90px;
+}
+
+.comp-entry p{
+    max-width: 70%;
+    margin-left: 20px;
+}
+
+.takeaways{
+    background:#8b90a3;
+    border-radius: 20px;
+    align-content: center;
+    padding: 20px;
+    margin: 20px 0px;
+    flex: 0.8;
+}
+
+.takeaways p{
+    margin: 10px;
+}
+
+/*===prototype===*/
+.orb-prototype{
+    text-align: center;
+    background:#fff;
+    color:#2a2d38;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.orb-prototype h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+.orb-prototype-content{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #8b90a3;
+  font-weight: 300;
+  font-size: 14px;
+  z-index: 10;
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+}
+
+/*===Usability Testing===*/
+.usability-testing {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+    background: #fff;
+}
+
+.usability-text {
+    display: block;
+    background: #8b90a3;
+    max-width: 35%;
+    border-radius: 20px;
+    text-align:left;
+    color: #fff;
+    padding: 25px;
+}
+
+.usability-text h1{
+    font-weight:700;
+}
+
+.usability-text p {
+    font-weight: 300;
+    margin: 20px;
+}
+
+.our-changes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.our-changes h1{
+    font-weight: 700;
+}
+
+.our-changes img{
+    max-height: 500px;
+    display: block;
+}
+
+/*===reflection==*/
+.reflection{
+    background: #fff;
+    padding:  20px 120px;
+    display: block;
+    text-align: center;
+}
+
+.reflection h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.reflection p{
+    font-weight: 300;
+    color: #8b90a3;
+    margin: 20px;
+}
