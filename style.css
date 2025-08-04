@@ -284,6 +284,10 @@ body {
   color: #8b90a3;
 }
 
+.hover-green:hover{
+  color:#A7B5AC;
+}
+
 .right-arrow{
   display: inline-block;
   transition: transform 0.3s ease;
